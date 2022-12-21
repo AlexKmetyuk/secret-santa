@@ -1,0 +1,28 @@
+.login__form {
+    width: 400px;
+    height: 450px;
+    text-align: center;
+    padding: 30px 0;
+
+    @media screen and (max-width:560px) {
+
+        width: 250px;
+        transform: scale(0.8);
+    }
+
+    @media screen and (min-width: 560) and (max-width:960px) {
+        margin-top: 100px;
+        width: 400px;
+        transform: scale(0.9);
+    }
+}
+
+.form__title {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.button__wrapper {
+    margin-top: 20px;
+}

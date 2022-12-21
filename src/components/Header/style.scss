@@ -1,0 +1,30 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+
+    background-image: url(../../assets/beard.png);
+    background-position-x: 45%;
+    background-position-y: top;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    max-width: 1300px;
+    height: 370px;
+    background-size: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+    @media screen and (max-width: 768px) {
+        height: 220px;
+        background-size: 100%;
+    }
+
+
+
+}
